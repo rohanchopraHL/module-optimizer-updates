@@ -1,0 +1,25 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "module_optimizer_2",
+      "name": "Module Optimizer 2.0",
+      "tagline": "Furniture module cleanup, naming conventions and Collada export",
+      "version": "2.0.31",
+      "type": "add-on",
+      "maintainer": "Rohan Chopra",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.5.0",
+      "permissions": {
+        "files": "Import bundled handles, export Collada and save the .blend"
+      },
+      "archive_url": "./module_optimizer_2-2.0.31.zip",
+      "archive_size": 353871,
+      "archive_hash": "sha256:2affa53cb92a921237f5206725facc4f2cc95b9526e0c9aa1f8d1f17fd03a3ea"
+    }
+  ]
+}
