@@ -5,6 +5,9 @@
 # publish under "next" - build_zip.py replaces it with the version
 # number. Keep each line short; lines starting with # are ignored.
 
+2.0.32
+- Unwrap: new A1-T20 grid texture, so you can read where each part of the UV lands
+
 2.0.31
 - Updates now come straight from the internet (GitHub) - no more waiting for Google Drive to sync
 - Blender checks for new versions every 5 minutes
