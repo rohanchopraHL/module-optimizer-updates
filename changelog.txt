@@ -1,0 +1,33 @@
+# Module Optimizer 2.0 - what's new
+#
+# Shown to the team in Blender's What's new popup (opens by itself
+# when a new version is ready). Write the notes for the next
+# publish under "next" - build_zip.py replaces it with the version
+# number. Keep each line short; lines starting with # are ignored.
+
+2.0.31
+- Updates now come straight from the internet (GitHub) - no more waiting for Google Drive to sync
+- Blender checks for new versions every 5 minutes
+
+2.0.30
+- Carcass > Without OSL/BSL, nothing selected: Vertical Panel Left and Right become their own car-in too
+
+2.0.29
+- One popup only: What's new opens by itself when a new version is ready, with Update now
+
+2.0.28
+- What's new button: shows your version, and Update now when a new version is ready
+
+2.0.27
+- What's new now shows only the changes in your version
+
+2.0.26
+- Blender now tells you when a new version is ready, and what changed
+- What's new button at the bottom of the Module Optimizer tab
+
+2.0.25
+- Carcass in Top, Bottom, Side and Back Panel now asks With / Without OSL/BSL
+
+2.0.24
+- Side Panels: new option sd-pnl (Side Panel) - Module_sd-pnl_01, _02
+- Side Panels: car_sd-pnl renamed to sd-pnl_OSL/BSL
