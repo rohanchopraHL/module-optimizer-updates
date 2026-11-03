@@ -5,6 +5,9 @@
 # publish under "next" - build_zip.py replaces it with the version
 # number. Keep each line short; lines starting with # are ignored.
 
+2.0.34
+- Skirting: choose Depth (18mm / 20mm) and Position - Inline (in front, as before) or Inset (inside, between the side panels, flush with the front)
+
 2.0.33
 - Fixed "Update failed: Repository not set" on PCs where another extension repository is turned off
 
