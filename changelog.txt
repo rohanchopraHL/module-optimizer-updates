@@ -5,6 +5,18 @@
 # publish under "next" - build_zip.py replaces it with the version
 # number. Keep each line short; lines starting with # are ignored.
 
+2.0.38
+- New Category dropdown at the top (starts on "Select"): Cabinets, Wardrobes, Beds, Storages, Tables. Pick Cabinets for all the tools you know; the others share the general tools, with their own conventions coming soon
+- Skirting: type any Height and Depth in mm (starts at 100 x 18mm)
+- Wardrobes: Top / Back / Side / Bottom Panel find "Top Panel 1, 2 ...", "Side Panel Left / Right" etc. and ask With OSL/BSL or Without; click again to switch
+- Wardrobes: Shutter (no popup) finds "Hinged Wardrobe Plain Left / Right 1, 2 ..." - each sh_NN with sh-ft, sh-bk, sh-eb
+- Wardrobes: Vertical Panel finds "Centre Vertical Panel 1, 2 ..." - vt-pnl_01, _02 ...
+- Wardrobes: Carcass, Removable Shelf and Fixed Shelf are coming soon
+- Wardrobes > Handle Library: With Lock / Without Lock for one shutter - a lock 35mm under the handle, named lck_01, _02 ... (not shown with Add Handle to Selected)
+- Handle Library: selected shutter groups (sh_01, sh_02 ...) now count as their front face
+- Cabinets: panel buttons now in the order Top, Back, Side, Bottom
+- Beds: no Handle Library or Skirting
+
 2.0.37
 - Handle Library: select two or more meshes and click "Add Handle to Selected" - each gets a handle with the same settings
 
