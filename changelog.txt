@@ -5,6 +5,10 @@
 # publish under "next" - build_zip.py replaces it with the version
 # number. Keep each line short; lines starting with # are ignored.
 
+2.0.35
+- Handle Library: Vertical handles now have Side (Left / Right) and Height Position - % from the bottom of the shutter to the handle's centre (50% = middle)
+- Handle Library: Object / Pick moved above Horizontal / Vertical
+
 2.0.34
 - Skirting: choose Depth (18mm / 20mm) and Position - Inline (in front, as before) or Inset (inside, between the side panels, flush with the front)
 
