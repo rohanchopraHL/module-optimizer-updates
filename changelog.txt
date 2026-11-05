@@ -5,6 +5,9 @@
 # publish under "next" - build_zip.py replaces it with the version
 # number. Keep each line short; lines starting with # are ignored.
 
+2.0.37
+- Handle Library: select two or more meshes and click "Add Handle to Selected" - each gets a handle with the same settings
+
 2.0.36
 - Handle Library: Horizontal handles now use Height Position too (% from the bottom, 50% = centre) instead of Top / Center / Bottom
 
