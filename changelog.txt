@@ -5,6 +5,9 @@
 # publish under "next" - build_zip.py replaces it with the version
 # number. Keep each line short; lines starting with # are ignored.
 
+2.0.36
+- Handle Library: Horizontal handles now use Height Position too (% from the bottom, 50% = centre) instead of Top / Center / Bottom
+
 2.0.35
 - Handle Library: Vertical handles now have Side (Left / Right) and Height Position - % from the bottom of the shutter to the handle's centre (50% = middle)
 - Handle Library: Object / Pick moved above Horizontal / Vertical
