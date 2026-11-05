@@ -7,7 +7,7 @@
       "id": "module_optimizer_2",
       "name": "Module Optimizer 2.0",
       "tagline": "Furniture module cleanup, naming conventions and Collada export",
-      "version": "2.0.34",
+      "version": "2.0.35",
       "type": "add-on",
       "maintainer": "Rohan Chopra",
       "license": [
@@ -17,9 +17,9 @@
       "permissions": {
         "files": "Import bundled handles, export Collada and save the .blend"
       },
-      "archive_url": "./module_optimizer_2-2.0.34.zip",
-      "archive_size": 206099,
-      "archive_hash": "sha256:e452c03c182b1709136cf97f51052ded1ea97fc7a98bed0f758b70ae38e3a769"
+      "archive_url": "./module_optimizer_2-2.0.35.zip",
+      "archive_size": 206556,
+      "archive_hash": "sha256:8562ce9a4282ce929f88603f01d2c1be62ebcd4188d490ad258381b9c0e019e2"
     }
   ]
 }
