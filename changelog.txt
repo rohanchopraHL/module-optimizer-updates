@@ -5,6 +5,11 @@
 # publish under "next" - build_zip.py replaces it with the version
 # number. Keep each line short; lines starting with # are ignored.
 
+2.0.39
+- Category dropdown now has only Cabinets and Wardrobes (Beds, Storages and Tables removed)
+- Cabinets > Shutter > All Combine also finds Bed Side Panel Left / Right and Bed Footboard (each whole), and the Headboard (Head board, back rippers, side and top frames joined into one)
+- Cabinets > Carcass > Without OSL/BSL also finds the bed storage parts (Bottom Storage Panel 1, 2 ..., Center Vertical, Horizontal Rippers Left / Right, Side Support Left / Right, Top Matress Panel 1, 2 ...) and joins them all into one car-in
+
 2.0.38
 - New Category dropdown at the top (starts on "Select"): Cabinets, Wardrobes, Beds, Storages, Tables. Pick Cabinets for all the tools you know; the others share the general tools, with their own conventions coming soon
 - Skirting: type any Height and Depth in mm (starts at 100 x 18mm)
