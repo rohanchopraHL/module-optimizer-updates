@@ -5,6 +5,18 @@
 # publish under "next" - build_zip.py replaces it with the version
 # number. Keep each line short; lines starting with # are ignored.
 
+2.0.40
+- New Category "Wardrobe Internals": all the Wardrobe Internals add-on tools are now inside Module Optimizer 2.0 - you can remove the separate Wardrobe Internals add-on
+- Wardrobe Internals > Auto Optimize: the Internal Optimizer in one click - Optimize names every part (using STEP 1's Name), adds drawer handles and the hanger rod (name with HR), centred like Set Pivot Point
+- Wardrobe Internals > Set Pivot Point: centres on the panels only (handles / hanger rod no longer pull the centre forward)
+- Wardrobe Internals: new layout - cleanup buttons, then module name with Optimize Internal right under Apply Module Name, then Convention (Panel Conventions only), Flip, UV Checker, Resizer (choose Depth or Width) and Export; Nudge and Hardware Library removed from the panel
+- Auto Optimize hanger rods match the team's files: full width without a vertical panel (half right beside one), 85 mm under the panel above, as many as the name's HR count; WTR racks go into their drawer box
+- Wardrobe Internals: CleanUp Module now sets the scene units to Millimeters, scales (measures the module, any import scale) and deletes the materials - it no longer deletes or joins any mesh; Delete Empty Groups is now Delete Empty Groups/Remove Shell
+- Auto Optimize follows the team's naming: name kept as typed, parts in metres, glass panels int-dwr-gl, FS / RS counts from the name, handles only on ID drawers (never OD / ODB or the trouser rack), LK box panels on their own
+- Auto Optimize: GLU modules get the 4 metal parts (mtl-blk / mtl-chrm) sized to the internal; trouser racks (WTR) become one int-dwr of their own
+- Cabinets > Carcass > Without OSL/BSL: the bed storage parts (Bottom Storage Panels, Center Vertical, Horizontal Rippers Left / Right, Side Supports, Top Matress Panels) now each become their own car-in, instead of one joined car-in
+- Cabinets > Shutter: the bed parts moved from All Combine to Combine Front and Back - Bed Side Panel Left / Right and Bed Footboard each their own sh_NN (sh-ft Front + Back, sh-eb); all Headboard parts in one sh_NN. All Combine is back to Curved End Panels only
+
 2.0.39
 - Category dropdown now has only Cabinets and Wardrobes (Beds, Storages and Tables removed)
 - Cabinets > Shutter > All Combine also finds Bed Side Panel Left / Right and Bed Footboard (each whole), and the Headboard (Head board, back rippers, side and top frames joined into one)
